@@ -73,9 +73,10 @@ static int _orientation = 3;
       orientationStr = @"PORTRAIT";
       break;
     case UIDeviceOrientationLandscapeLeft:
+      orientationStr = @"LANDSCAPE-LEFT";
+      break;
     case UIDeviceOrientationLandscapeRight:
-
-      orientationStr = @"LANDSCAPE";
+      orientationStr = @"LANDSCAPE-RIGHT";
       break;
     default:
       orientationStr = @"UNKNOWN";
