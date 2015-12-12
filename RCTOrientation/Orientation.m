@@ -69,8 +69,10 @@ static int _orientation = 3;
   NSString *orientationStr;
   switch (orientation) {
     case UIDeviceOrientationPortrait:
-    case UIDeviceOrientationPortraitUpsideDown:
       orientationStr = @"PORTRAIT";
+      break;
+    case UIDeviceOrientationPortraitUpsideDown:
+      orientationStr = @"UPSIDEDOWN";
       break;
     case UIDeviceOrientationLandscapeLeft:
       orientationStr = @"LANDSCAPE-LEFT";
