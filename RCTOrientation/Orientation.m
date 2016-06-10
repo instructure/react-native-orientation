@@ -3,8 +3,12 @@
 //
 
 #import "Orientation.h"
-#import "AppDelegate.h"
 
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (nonatomic, strong) UIWindow *window;
+
+@end
 
 @implementation AppDelegate (Orientation)
 
@@ -196,4 +200,3 @@ RCT_EXPORT_METHOD(unlockAllOrientations)
 }
 
 @end
-
